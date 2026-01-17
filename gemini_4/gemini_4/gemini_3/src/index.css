@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+:root {
+  font-family: 'Baloo 2', system-ui, -apple-system, BlinkMacSystemFont,  'Segoe UI',  sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #e5e7eb;
+  background-color: #020617;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #020617;
+  color: #e5e7eb;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+
+h1, h2, h3, .main-title {  /* apne big title class ko target kar lo */
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 700;  /* ya 800 for extra punch */
+  line-height: 1.1;
+}
